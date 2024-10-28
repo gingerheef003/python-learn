@@ -14,4 +14,6 @@ w.connect_to_wifi()
 # import all from a package; requires __all__ to be setup in __init__.py of the package
 from connections import *
 connect_to_mobile_data()
-wifi.connect_to_wifi()
+
+# Calling a function which uses method from a different module in the same package
+wifi.access_mobile_data_via_wifi()
